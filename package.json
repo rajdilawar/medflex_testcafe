@@ -1,0 +1,16 @@
+{
+  "name": "testcafe",
+  "version": "1.8.4",
+  "description": "Rajdilawar Tests with Test Cafe framework Medflex GmbH",
+  "scripts": {
+    "test:runAllTests": "testcafe chrome tests/*.js",
+    "test:runAllTestsMultipleBrowsers": "testcafe chrome,firefox tests/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^1.16.1",
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}
